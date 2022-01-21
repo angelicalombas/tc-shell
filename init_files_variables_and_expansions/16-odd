@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n '1~2 p'
+awk 'NR%2==1'
